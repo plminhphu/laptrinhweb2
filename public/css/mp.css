@@ -1,0 +1,27 @@
+.dropbtn-mp {
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-mp {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content-mp,.dropdown-content-mp-s {
+    display: none;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content-mp-s {
+    width: 150px;
+}
+.dropdown-mp:hover .dropdown-content-mp,.dropdown-mp:hover .dropdown-content-mp-s {
+    display: block;
+}
